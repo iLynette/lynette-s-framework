@@ -1,0 +1,56 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, small, strong, i, ol, ul, form, article, section, figure, figcaption, em, header, nav, time, video, blockquote,form,label,embed,output,time, span, table, tbody,thead,del,abbr {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-weight: normal;
+    font: inherit;
+    vertical-align: baseline;
+    background: transparent;
+}
+/*HTML5 display for older browsers */
+nav, section, footer, header, figure article {
+    display: block;
+}
+
+/*to prevent a jumpy page*/
+html {
+    overflow-y: scroll;
+}
+/*set box-sizing*/
+html {
+    box-sizing: border-box;
+}
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+/*responsive images and embedded objects */
+img, object, embed {
+    max-width: 100%;
+}
+ul, ol {
+    list-style-type: none;
+}
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+a:hover {
+    text-decoration: underline;
+}
+body {
+    line-height: 1;
+    background-color: #fff;
+    color: #000;
+}
+hr {
+    border: 0;
+    margin: 1em 0;
+}
+blockquote, q {
+    quotes: none;
+}
